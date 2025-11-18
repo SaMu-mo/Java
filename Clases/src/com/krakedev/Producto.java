@@ -5,6 +5,28 @@ public class Producto {
 	private int stockActual;
 	private double precio;
 	private String descripcion;
+	
+	
+	public Producto(String nombre) {
+		this.nombre = nombre;
+		
+	}
+	public Producto(int stockActual) {
+		this.stockActual = stockActual;
+	
+	}
+	public Producto(double precio) {
+		this.precio = precio;
+	
+	}
+	public Producto(String nombre, int stockActual, double precio, String descripcion) {
+		this.stockActual = stockActual;
+		this.precio= precio;
+		this.nombre=nombre;
+		this.descripcion = descripcion;
+	}
+	
+	
 	public String getNombre() {
 		return nombre;
 	}

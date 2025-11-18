@@ -5,9 +5,9 @@ public class TestPersona {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Personas p; //1.Declaro la variable p tipo persona 
-		Personas p2 = new Personas();
-		p=new Personas();//2.Instanciar a persona y lo referencio con p
+		Personas p=new Personas("Samuel"); //1.Declaro la variable p tipo persona 
+		Personas p2 = new Personas("Ana",20,1.75);
+		//p=new Personas();//2.Instanciar a persona y lo referencio con p
 		//3. Acceder a los atributos 
 		System.out.println("nombre: " + p.getNombre());
 		System.out.println("edad: " + p.getEdad());
