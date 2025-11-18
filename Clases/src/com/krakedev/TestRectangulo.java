@@ -8,12 +8,13 @@ public class TestRectangulo {
 		Rectangulo r2 = new Rectangulo();
 		int area;
 		double area2;
-		r1.base = 10;
-		r1.altura = 5;
+		r1.setBase(10); 
+		r1.setAltura(5);
 		
-		r2.lado1 = 8;
-		r2.lado2 = 8;
-		r2.lado3 = 8;
+		r2.setLado1(8);
+		r2.setLado2(8);
+		r2.setLado3(8);
+		
 		
 		
 		

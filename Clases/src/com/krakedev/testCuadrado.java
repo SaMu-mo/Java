@@ -15,20 +15,20 @@ public class testCuadrado {
 		double area5;
 		
 		
-		c1.lado1 = 8;
-		c1.lado2 = 8;
-		c1.lado3 = 8;
-		c1.lado4 = 8;
+		c1.setLado1(8);
+		c1.setLado2(8);
+		c1.setLado3(8);
+		c1.setLado4(8);
 		
-		c2.lado1 = 7;
-		c2.lado2 = 7;
-		c2.lado3 = 7;
-		c2.lado4 = 7;
+		c2.setLado1(7);
+		c2.setLado2(7);
+		c2.setLado3(7);
+		c2.setLado4(7);
 		
-		c3.lado1 = 12;
-		c3.lado2 = 12;
-		c3.lado3 = 12;
-		c3.lado4 = 12;
+		c3.setLado1(4);
+		c3.setLado2(4);
+		c3.setLado3(4);
+		c3.setLado4(4);
 		
 		
 		
